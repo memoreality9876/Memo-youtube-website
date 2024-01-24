@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+padding: 65px 10px 20px 10px;
+  background-color: rgb(249, 249, 249);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: clamp(28px, 3vh, 36px);
+ 
+}
+html{
+  scroll-behavior: smooth;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+ 
+}
+
+marquee {
+font-size: 20px;
+font-weight: bold;
+color: red;
+border: 4px #000;
+}
+.click{
+  width: 270px;
+  border: 2px solid lightgray;
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+  padding: 4px 10px;
+  border-radius: 6px;
+  box-shadow: 5px 6px 8px rgba(0,0,0,0.9);
+  font-weight: bold;
+}
+.click span{
+  font-size: 40px;
+}
